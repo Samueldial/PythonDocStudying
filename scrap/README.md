@@ -1,1 +1,1 @@
-# Projetos envolvendo scraping com python
+# scrapping projects with python
