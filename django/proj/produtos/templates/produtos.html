@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang='pt'>
+<head>
+  <title>
+  </title>
+</head>
+<body>
+  <h1>Show</h1>
+  {{ nome }}
+
+  <ul>
+    {% for produto in produtos %}
+    <li>{{ produto.nome }}</li>
+    {% endfor %}
+  </ul>
+
+  Produto encontrado
+  {{ produto }}
+
+</body>
+</html>
